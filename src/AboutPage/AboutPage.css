@@ -1,76 +1,56 @@
-* {
-    margin: 0;
-    padding: 0;
-    font-family: "Open Sans", sans-serif;
-    box-sizing: border-box;
-  }
-  
-  .body {
-    min-height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f1f1f1;
-  }
-  
-  .about-section {
-    
-    background-size: 55%;
-    background-color: #fdfdfd;
-    overflow: hidden;
-    padding: 100px 0;
-  }
-  
-  .inner-container {
-    width: 55%;
-    float: right;
-    background-color: #fdfdfd;
-    padding: 150px;
-  }
-  
-  .inner-container h1 {
-    margin-bottom: 30px;
-    font-size: 30px;
-    font-weight: 900;
-  }
-  
-  .text {
-    font-size: 13px;
-    color: #545454;
-    line-height: 30px;
-    text-align: justify;
-    margin-bottom: 40px;
-  }
-  
-  .skill {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 700;
-    font-size: 13px;
-  }
-  
-  @media screen and (max-width: 1200px) {
-    .inner-container {
-      padding: 80px;
-    }
-  }
-  
-  @media screen and (max-width: 1000px) {
-    .about-section {
-      background-size: 100%;
-      padding: 100px 40px;
-    }
-    .inner-container {
-      width: 100%;
-    }
-  }
-  
-  @media screen and (max-width: 600px) {
-    .about-section {
-      padding: 0;
-    }
-    .inner-container {
-      padding: 60px;
-    }
-  }
-  
+.back-arrow{
+ margin: 1rem;
+ padding: 1rem;
+ background-color: #4b4b4d;
+ width: 1.4rem;
+ height: 1.4rem;
+ border-radius: 40%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ opacity: 0.5;
+}
+.back-arrow:hover{
+  opacity: 1;
+  transform: scale(1.05);
+  transition: 0.2s ease-in;
+}
+.content1 {
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  gap: 3rem;
+  margin-block-start: 2rem;
+  max-width: 75rem;
+  margin: 0 auto;
+  padding: 0 1.5rem 10rem;
+}
+.text-area {
+  grid-column: 1 / 5;
+}
+.about-text-1, .about-text-2 ,.about-text-3 {
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  text-align: left;
+  margin: 0.5em 2rem;
+  max-width: 42.5rem;
+}
+.setup-sec {
+  background-color: green;
+  border-radius: 4%;
+}
+.pc-pic {
+  padding: 1rem;
+  margin-top: 1px;
+  border-radius: 1.4rem;
+  width: 180px;
+  height: 130px;
+}
+.pc-text {
+  padding: 0 1rem;
+  text-align: center;
+  margin-top: 2px;
+  font-size: 1.1rem;
+
+}
