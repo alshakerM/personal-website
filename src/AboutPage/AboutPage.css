@@ -1,24 +1,25 @@
-.back-arrow{
- margin: 1rem;
- padding: 1rem;
- background-color: #4b4b4d;
- width: 1.4rem;
- height: 1.4rem;
- border-radius: 40%;
- display: flex;
- align-items: center;
- justify-content: center;
- opacity: 0.5;
+.back-arrow {
+  margin: 1rem;
+  padding: 1rem;
+  background-color: #4b4b4d;
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
 }
-.back-arrow:hover,.back-arrow-icon:hover{
+.back-arrow:hover,
+.back-arrow-icon:hover {
   opacity: 1;
   transform: scale(1.1);
   transition: 0.2s ease-in;
-  color:rgba(145, 207, 1, 0.856);
+  color: rgba(145, 207, 1, 0.856);
 }
 .about-content {
   display: grid;
-  grid-template-columns: repeat(6,1fr);
+  grid-template-columns: repeat(6, 1fr);
   gap: 3rem;
   margin-block-start: 2rem;
   max-width: 75rem;
@@ -28,7 +29,9 @@
 .text-area {
   grid-column: 1 / 5;
 }
-.about-text-1, .about-text-2 ,.about-text-3 {
+.about-text-1,
+.about-text-2,
+.about-text-3 {
   color: white;
   font-weight: 400;
   font-size: 20px;
@@ -39,29 +42,27 @@
 .about-text-3 {
   padding-bottom: 80px;
 }
-.contact-section{
+.contact-section {
   display: flex;
   justify-content: space-around;
-  animation: fade-in 0.9s ease forwards;
-  transform: t;
+  transition: all 0.5s ease-in-out;
+  transform-origin: 0 0;
+  flex-wrap: wrap;
 }
 @keyframes fade-in {
   0% {
     transform: translateY(40px);
-
   }
 }
 .contact-email {
   color: white;
   font-weight: 400;
   font-size: 25px;
-  margin: 3.5em 2rem;
 }
 .contact-twitter {
   color: white;
   font-weight: 500;
   font-size: 25px;
-  margin: 3.5em 2rem;
 }
 .contact-twitter-link {
   text-decoration: none;
@@ -71,7 +72,7 @@
 .contact-twitter-link:hover {
   font-size: 1.6rem;
   transition: 0.3s ease-in-out;
-  color:rgba(145, 207, 1, 0.856);
+  color: rgba(145, 207, 1, 0.856);
 }
 .contact-button {
   font-size: 1.4rem;
@@ -85,18 +86,17 @@
   transition: 1s;
   animation: fade-in 0.9s ease forwards;
 }
-.contact-button:hover{
+.contact-button:hover {
   transform: scale(1.02);
-  background-color:rgba(145, 207, 1, 0.856);
+  background-color: rgba(145, 207, 1, 0.856);
   transition: 0.3s ease-in;
-  
 }
 
-.setup-section{
+.setup-section {
   background-color: #111115;
   border-radius: 0.5rem;
   padding: 0.8rem;
-  color: white
+  color: white;
 }
 .pc-pic {
   padding: 1rem;
@@ -110,12 +110,12 @@
   text-align: center;
   margin-top: 2px;
   font-size: 1.1rem;
-
 }
 .setup-head-text {
   font-size: 1.5rem;
 }
-.softwear-list, .hardwear-list {
+.softwear-list,
+.hardwear-list {
   list-style-type: none;
   padding-inline: 0px;
 }

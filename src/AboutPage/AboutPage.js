@@ -1,16 +1,16 @@
-import "./AboutPage.css";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import { Link } from "react-router-dom";
-import React from "react";
+import './AboutPage.css';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import { Link } from 'react-router-dom';
+import React from 'react';
 
 export function AboutPage() {
   const [show, setShow] = React.useState(false);
   return (
     <div className="body">
-      <div className="about-containor">
-        <div className="about-sec-containor">
+      <div className="about-container">
+        <div className="about-sec-container">
           <div className="back-arrow">
-            <Link to="/" style={{ color: "white", opacity: "0.9" }}>
+            <Link to="/" style={{ color: 'white', opacity: '0.9' }}>
               <ArrowBackIcon fontSize="large" className="back-arrow-icon" />
             </Link>
           </div>
@@ -31,22 +31,25 @@ export function AboutPage() {
                 passion into coding until recently. always loved Gaming, and im
                 a huge fan of cars.
               </p>
-              {show ? (
-                <div className="contact-section">
-                  <p className="contact-email">Email: 7kami12@gmail.com</p>
-                  <p className="contact-twitter">
-                    Tweet at me: 
-                     <a
-                      className="contact-twitter-link"
-                      href="https://twitter.com/m_alshaker"
-                      target="_blank"
-                    >
-                      @m_alshaker
-                    </a>
-                  </p>
-                </div>
-              ) : null}
-              <button className="contact-button"  onClick={() => setShow(!show)}>Contact Me</button>
+              <button className="contact-button" onClick={() => setShow(!show)}>
+                Contact Me
+              </button>
+              <div
+                className="contact-section"
+                style={show ? {} : { opacity: 0, transform: 'scaleY(0)' }}
+              >
+                <p className="contact-email">Email: 7kami12@gmail.com</p>
+                <p className="contact-twitter">
+                  Tweet at me:
+                  <a
+                    className="contact-twitter-link"
+                    href="https://twitter.com/m_alshaker"
+                    target="_blank"
+                  >
+                    @m_alshaker
+                  </a>
+                </p>
+              </div>
             </div>
             <div className="setup-section">
               <div className="pc">
