@@ -24,7 +24,7 @@ export function HomePage() {
         <div className="content">
           <p className="intro-text">
             Hello! im Marwan Al Shaker,beginner programmer based in Colonge,
-            Germany. I love cars, pc hardware and gaming, coding too obviously.
+            Germany. I love cars, pc hardware, gaming and coding.
             Currently im working on building my own website and have done a few
             simple other projects.
           </p>
