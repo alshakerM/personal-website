@@ -22,8 +22,10 @@ body {
   justify-content: space-between;
   padding-block-start: 8rem;
 }
+h2 {
+  font-size: 3.5rem;
+}
 .intro-text {
-  line-height: 160%;
   flex: 0.5;
   font-size: 1.4rem;
   color: white;
@@ -60,20 +62,8 @@ body {
 .projects-container {
   background-color: rgba(0, 0, 0, 0.699);
   border-radius: 1rem;
-  max-width: 90%;
+  max-width: 70%;
   margin: 0 auto 4%;
-}
-.prject-area {
-  display: flex;
-}
-.prject-area h2 {
-  color: #e7e7e9;
-  padding: 40px 40px;
-}
-.prject-area p {
-  color: #e7e7e9;
-  padding: 50px 10px;
-  font-size: 1.1rem;
 }
 .other {
   padding: 10px 40px;

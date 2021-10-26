@@ -22,10 +22,8 @@ export function HomePage() {
     <div className="website-container">
       <div className="content-container">
         <p className="intro-text">
-          Hello! im Marwan Al Shaker,beginner programmer based in Colonge,
-          Germany. I love cars, pc hardware, gaming and coding. Currently im
-          working on building my own website and have done a few simple other
-          projects.
+          <h2>Marwan Al Shaker 👋</h2>Beginner programmer based in Cologne,
+          Germany.
         </p>
         <div className="button-container">
           <Link
@@ -35,7 +33,7 @@ export function HomePage() {
               textDecoration: 'none',
             }}
           >
-            About Me
+            About me
           </Link>
           <button
             className="home-page-button follow-button"
@@ -49,18 +47,10 @@ export function HomePage() {
         </div>
       </div>
       <div className="projects-container">
-        <div className="prject-area">
-          <h2>Current Project</h2>
-          <p>
-            My current project is my own website the one you are seeing right
-            now it's still not complete and most likely i will keep working at
-            it for a long time. i hope you like it.
-          </p>
-        </div>
         <div className="other">
-          <p className="other-projects-title">Other Projects</p>
+          <p className="other-projects-title">Projects</p>
           <p className="other-projects-text">
-            I have done some other project some of them are:
+            I have done some simple project, few examples:
           </p>
           <div className="card-container">
             <Card
@@ -74,7 +64,7 @@ export function HomePage() {
               onClick={() => window.open('https://trjwu.csb.app/')}
             >
               <CardContent>
-                <h3 className="title">Todo list App</h3>
+                <h3 className="title">Todo List App</h3>
                 <CardMedia
                   className="project-img-todo"
                   style={{ marginBottom: '20px' }}
