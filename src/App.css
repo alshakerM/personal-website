@@ -62,7 +62,7 @@ h2 {
 .projects-container {
   background-color: rgba(0, 0, 0, 0.699);
   border-radius: 1rem;
-  max-width: 70%;
+  max-width: 20%;
   margin: 0 auto 4%;
 }
 .other {
@@ -71,19 +71,20 @@ h2 {
   font-size: 1.4rem;
 }
 .other-projects-title {
-  color: #e7e7e9;
-  font-size: 1.4rem;
+  color: white;
+  font-weight: bold;
+  font-size: 1.7rem;
   width: 10px;
-  display: inline-flex;
+ 
 }
 .other-projects-text {
-  display: inline;
-  padding: 0 170px;
+  opacity: 0.8;
 }
 
 .card-container {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
 }
 .card {
   background-color: rgba(0, 0, 0, 0.199);
