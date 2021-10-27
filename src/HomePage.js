@@ -55,7 +55,7 @@ export function HomePage() {
           <div className="card-container">
             <Card
               variant="outlined"
-              sx={{ maxWidth: 200 }}
+              sx={{ width: 200 }}
               style={{
                 margin: '10px 0',
                 backgroundColor: 'rgba(151, 151, 153, 0.1)',
@@ -85,7 +85,7 @@ export function HomePage() {
               </CardActions>
             </Card>
             <Card
-              sx={{ maxWidth: 280 }}
+              sx={{ width: 200 }}
               style={{
                 margin: '10px 0',
                 backgroundColor: 'rgba(151, 151, 153, 0.1)',
@@ -99,7 +99,7 @@ export function HomePage() {
                   className="project-img-movie"
                   style={{ marginBottom: '20px' }}
                   component="img"
-                  height="150"
+                  height="140"
                   image="/Movie search.png"
                   alt=""
                 />
@@ -115,7 +115,7 @@ export function HomePage() {
               </CardActions>
             </Card>
             <Card
-              sx={{ maxWidth: 200 }}
+              sx={{ width: 200 }}
               style={{
                 margin: '10px 0',
                 backgroundColor: 'rgba(151, 151, 153, 0.1)',
