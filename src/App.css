@@ -60,9 +60,8 @@ h2 {
   transition: all 0.2s ease-in;
 }
 .projects-container {
-  background-color: rgba(0, 0, 0, 0.699);
   border-radius: 1rem;
-  max-width: 20%;
+  max-width: 90%;
   margin: 0 auto 4%;
 }
 .other {
@@ -75,7 +74,6 @@ h2 {
   font-weight: bold;
   font-size: 1.7rem;
   width: 10px;
- 
 }
 .other-projects-text {
   opacity: 0.8;
@@ -99,6 +97,7 @@ h2 {
   font-weight: 750;
   padding-bottom: 20px;
   color: white;
+  margin: 0;
 }
 .project-img-todo,
 .project-img-movie,
@@ -130,4 +129,15 @@ h2 {
   100% {
     background-position: 0% 50%;
   }
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+.tagline {
+  margin: 0;
+}
+.name {
+  margin: 0.3em 0;
 }
