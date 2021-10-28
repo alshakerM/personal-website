@@ -17,7 +17,7 @@ export function AboutPage() {
           <div className="about-content">
             <div className="text-area">
               <p className="about-text-1">
-                Hi, I'm Marwan Al Shaker, a beginner JavaScript engineer and
+                Hi, I'm Marwan Alshaker, a beginner JavaScript engineer and
                 front-end developer. Currently working on improving myself.
               </p>
               <p className="about-text-2">Based in Cologne, Germany.</p>

@@ -11,7 +11,7 @@ export function HomePage() {
     <div className="website-container">
       <div className="content-container">
         <p className="intro-text">
-          <h2 className="name">Marwan Al Shaker 👋</h2>
+          <h2 className="name">Marwan Alshaker 👋</h2>
           <p className="tagline">
             Frontend developer just beginning my journey. Based in Cologne,
             Germany 🇩🇪
