@@ -3,7 +3,7 @@ html {
 }
 body {
   background: linear-gradient(30deg, #000000);
-  background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+  background-image: linear-gradient(315deg, #000000 0%, #2b2a2a 74%);
   background-size: 400% 400%;
   animation: gradient 13s ease infinite;
   min-height: 100%;
@@ -57,7 +57,7 @@ h2 {
 .home-page-button:hover {
   transform: scale(1.05);
   background-color: rgba(145, 207, 1, 0.856);
-  transition: all 0.2s ease-in;
+  transition: all 0.05s ease-in;
 }
 .projects-container {
   border-radius: 1rem;
@@ -90,14 +90,12 @@ h2 {
 .card:hover {
   transform: scale(1.01);
   transition: all 0.3s ease-in;
-  cursor: pointer;
 }
 .title {
   font-size: 22px;
-  font-weight: 750;
-  padding-bottom: 20px;
   color: white;
   margin: 0;
+  flex: 0.5;
 }
 .project-img-todo,
 .project-img-movie,
@@ -117,7 +115,7 @@ h2 {
 #try:hover {
   transform: scale(1.05);
   background-color: rgba(145, 207, 1, 0.856);
-  transition: all 0.3s ease-in;
+  transition: all 0.1s ease-in;
 }
 @keyframes gradient {
   0% {
@@ -140,4 +138,69 @@ ul {
 }
 .name {
   margin: 0.3em 0;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+.repo,
+.wordpressLink {
+  color: white;
+  opacity: 0.6;
+  text-decoration: none;
+}
+.repo {
+  opacity: 1;
+}
+.blog:hover,
+.repo:hover {
+  color: rgba(145, 207, 1, 1);
+}
+.description {
+  display: flex;
+  justify-content: space-between;
+}
+.tech {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.blog-text {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.ball {
+  width: 500px;
+  height: 500px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(10, 224, 160, 1);
+  mix-blend-mode: difference;
+  pointer-events: none;
+}
+.blog {
+  font-weight: bold;
+  color: white;
+  opacity: 1;
+  text-decoration: none;
+}
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+.blog-link {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+.blog-link:hover {
+  background-color: rgba(145, 207, 1, 0.856);
+  transition: all 0.1s ease-in;
+  padding: 0 10px;
+  box-sizing: border-box;
+  text-align: center;
+  vertical-align: center;
+  border-radius: 4px;
 }

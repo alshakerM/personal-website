@@ -1,7 +1,7 @@
-import "./AboutPage.css";
-import ArrowBackIcon from "@mui/icons-material/ArrowBack";
-import { Link } from "react-router-dom";
-import React from "react";
+import './AboutPage.css';
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import { Link } from 'react-router-dom';
+import React from 'react';
 
 export function AboutPage() {
   const [show, setShow] = React.useState(false);
@@ -10,15 +10,15 @@ export function AboutPage() {
       <div className="about-container">
         <div className="about-sec-container">
           <div className="back-arrow">
-            <Link to="/" style={{ color: "white", opacity: "0.9" }}>
+            <Link to="/" style={{ color: 'white', opacity: '0.9' }}>
               <ArrowBackIcon fontSize="large" className="back-arrow-icon" />
             </Link>
           </div>
           <div className="about-content">
             <div className="text-area">
               <p className="about-text-1">
-                Hi, I'm Marwan Alshaker, a beginner JavaScript engineer and
-                front-end developer. Currently working on improving myself.
+                Hi, I'm Marwan Alshaker, a JavaScript engineer and Front-end
+                developer. Currently working on improving myself.
               </p>
               <p className="about-text-2">Based in Cologne, Germany.</p>
 
@@ -27,9 +27,9 @@ export function AboutPage() {
               </button>
               <div
                 className="contact-section"
-                style={show ? {} : { opacity: 0, transform: "scaleY(0)" }}
+                style={show ? {} : { opacity: 0, transform: 'scaleY(0)' }}
               >
-                <p className="contact-email">Email: 7kami12@gmail.com</p>
+                <p className="contact-email">Email: marwan@alshaker.dev</p>
                 <p className="contact-twitter">
                   Tweet at me:
                   <a
