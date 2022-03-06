@@ -70,7 +70,6 @@
   padding-left: 2px;
 }
 .contact-twitter-link:hover {
-  font-size: 1.6rem;
   transition: 0.3s ease-in-out;
   color: rgba(145, 207, 1, 0.856);
 }
@@ -87,9 +86,8 @@
   margin-top: 10%;
 }
 .contact-button:hover {
-  transform: scale(1.02);
   background-color: rgba(145, 207, 1, 0.856);
-  transition: 0.3s ease-in;
+  transition: 0.1s ease-in;
 }
 
 .setup-section {
